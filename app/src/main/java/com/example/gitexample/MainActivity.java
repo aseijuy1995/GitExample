@@ -12,5 +12,6 @@ public class MainActivity extends AppCompatActivity {
         //chg not staged for commit
         //chg to be committed
         //git diff
+        //git diff --staged (only show is add file)
     }
 }
