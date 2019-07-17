@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         //chg to be committed
         //git diff
         //git diff --staged (only show is add file)
+        //git commit
     }
 }
