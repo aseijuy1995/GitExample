@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
         //git diff --staged (only show is add file)
         //git commit
         //git commit -a
+        //git mv (renamed)
     }
 }
