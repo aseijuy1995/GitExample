@@ -11,5 +11,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //chg not staged for commit
         //chg to be committed
+        //git diff
     }
 }
