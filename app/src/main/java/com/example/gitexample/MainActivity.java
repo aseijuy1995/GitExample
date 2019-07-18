@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
         //git commit
         //git commit -a
         //git mv (renamed)
+        //git log
     }
 }
