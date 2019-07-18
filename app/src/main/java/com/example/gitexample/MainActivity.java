@@ -18,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
         //git mv (renamed)
         //git log
         //git log -p -1
+        //git log --stat
     }
 }
