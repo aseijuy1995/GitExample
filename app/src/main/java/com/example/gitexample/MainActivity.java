@@ -19,5 +19,22 @@ public class MainActivity extends AppCompatActivity {
         //git log
         //git log -p -1
         //git log --stat
+        //git log --pretty=format:"%h - %ar : %s"
+        //%H 遞交物件的雜湊值
+        //%h 遞交物件的簡短雜湊值
+        //%T 樹物件的雜湊值
+        //%t 樹物件的簡短雜湊值
+        //%P 父物件的雜湊值
+        //%p 父物件的簡短雜湊值
+        //%an 作者名字
+        //%ae 作者email
+        //%ad 創作日期(可使用-date指定日期格式)
+        //%ar 相對於目前日期的創作日期
+        //%cn 遞交者名字
+        //%cn 遞交者email
+        //%cd 遞交日期
+        //%cr 相對於目前日期的遞交日期
+        //%s 遞交資訊主題
+
     }
 }
