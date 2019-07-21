@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         //%cd 遞交日期
         //%cr 相對於目前日期的遞交日期
         //%s 遞交資訊主題
+        //git log --shortstat
+
 
     }
 }
