@@ -62,6 +62,6 @@ public class MainActivity extends AppCompatActivity {
         //git tag -l "v1.0.0"
         //git show v1.0.0
         //git tag -a v1.0.1 -m "v1.0.1" 798378d
-
+        //git checkout -b master2 v1.0.2
     }
 }
