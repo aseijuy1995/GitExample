@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         //--util, --after
         //--committer
         //--amend
+        //git reset head <file>
 
 
 
