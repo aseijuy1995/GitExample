@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         //git checkout -- <file>
         //git remote
         //git remote -v
+        //git remote add <shortname> <url>
 
 
     }
