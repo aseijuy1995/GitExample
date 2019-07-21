@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         //git log --name-status
         //git log --abbrev-commit
         //git log --relative-date
+        //git log --oneline --graph
 
 
     }
