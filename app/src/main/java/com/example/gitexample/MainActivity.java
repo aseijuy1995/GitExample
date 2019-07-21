@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         //git reset head <file>
         //git checkout -- <file>
         //git remote
+        //git remote -v
 
 
     }
