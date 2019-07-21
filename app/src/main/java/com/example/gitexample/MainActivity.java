@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         //git fetch <remote-name>
         //git push origin master
         //git remote show origin
+        //git remote rename origin2 origin2-2
 
 
     }
