@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
         //git log --relative-date
         //git log --oneline --graph
         //git log --since=1.days
+        //git log --author=Jie
+        //git log --author=Jie
 
 
     }
