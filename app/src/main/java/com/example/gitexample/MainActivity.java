@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         //git remote rename origin2 origin2-2
         //git tag -l "v1.0.0"
         //git show v1.0.0
+        //git tag -a v1.0.1 -m "v1.0.1" 798378d
 
     }
 }
