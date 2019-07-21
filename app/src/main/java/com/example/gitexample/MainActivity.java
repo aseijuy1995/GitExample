@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         //%s 遞交資訊主題
         //git log --shortstat
         // git log --name-only
+        // git log --name-status
 
 
     }
