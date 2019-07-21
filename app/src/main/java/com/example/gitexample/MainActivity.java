@@ -47,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
         //git log --grep=commit
         //git log --author=Jie --grep=commit --all-match
         //git log -Smv
+        //--util, --after
+        //--committer
+        //--amend
+
 
 
     }
