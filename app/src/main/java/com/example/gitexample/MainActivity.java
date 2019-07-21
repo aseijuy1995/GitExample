@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         //git push origin master
         //git remote show origin
         //git remote rename origin2 origin2-2
+        //git tag -l "v1.0.0"
 
 
     }
