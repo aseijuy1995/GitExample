@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         //git remote show origin
         //git remote rename origin2 origin2-2
         //git tag -l "v1.0.0"
-
+        //git show v1.0.0
 
     }
 }
