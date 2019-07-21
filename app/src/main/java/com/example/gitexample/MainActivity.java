@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         //git log --name-only
         //git log --name-status
         //git log --abbrev-commit
-        //
+        //git log --relative-date
 
 
     }
