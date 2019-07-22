@@ -64,5 +64,7 @@ public class MainActivity extends AppCompatActivity {
         //git tag -a v1.0.1 -m "v1.0.1" 798378d
         //git checkout -b master2 v1.0.2
         //git config --global alias.cm commit
+        //git k
+        
     }
 }
