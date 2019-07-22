@@ -66,5 +66,6 @@ public class MainActivity extends AppCompatActivity {
         //git config --global alias.cm commit
         //git k
         //git branch master2
+        //git log --oneline --decorate
     }
 }
