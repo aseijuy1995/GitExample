@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         //git checkout -b master2 v1.0.2
         //git config --global alias.cm commit
         //git k
+        //git commit in master2 branch
         
     }
 }
