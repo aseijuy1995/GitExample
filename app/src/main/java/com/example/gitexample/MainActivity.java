@@ -68,5 +68,6 @@ public class MainActivity extends AppCompatActivity {
         //git branch master2
         //git log --oneline --decorate
         //git checkout master2
+        //git commit in master branch
     }
 }
