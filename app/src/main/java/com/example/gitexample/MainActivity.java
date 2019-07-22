@@ -78,5 +78,6 @@ public class MainActivity extends AppCompatActivity {
         //git branch -v
         //git branch --merged
         //git branch --no-merged
+        //git branch -D master2
     }
 }
