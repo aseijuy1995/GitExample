@@ -73,6 +73,6 @@ public class MainActivity extends AppCompatActivity {
         //git checkout -b master3
         //git commit in master2 branch
         //git merge master2
-        //git br -d master3
+        //git branch -d master3
     }
 }
