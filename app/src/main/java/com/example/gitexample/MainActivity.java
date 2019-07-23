@@ -80,5 +80,6 @@ public class MainActivity extends AppCompatActivity {
         //git branch --no-merged
         //git branch -D master2
         //git config --global credential.helper cache
+        //git checkout -b master2 origin/master
     }
 }
