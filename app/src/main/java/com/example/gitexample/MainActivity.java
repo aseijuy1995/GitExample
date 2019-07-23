@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         //git log --oneline --decorate
         //git checkout master2
         //git commit in master branch
-        // git log --oneline --graph --all
+        //git log --oneline --graph --all
         //git checkout -b master3
         //git commit in master2 branch
         //git merge master2
@@ -79,5 +79,6 @@ public class MainActivity extends AppCompatActivity {
         //git branch --merged
         //git branch --no-merged
         //git branch -D master2
+        //git config --global credential.helper cache
     }
 }
