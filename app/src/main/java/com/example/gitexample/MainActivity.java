@@ -82,5 +82,6 @@ public class MainActivity extends AppCompatActivity {
         //git config --global credential.helper cache
         //git checkout -b master2 origin/master
         //git checkout --track origin/master
+        //git checkout -b master2 origin2-2/master
     }
 }
