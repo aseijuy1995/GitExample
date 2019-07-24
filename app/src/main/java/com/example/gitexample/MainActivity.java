@@ -89,5 +89,6 @@ public class MainActivity extends AppCompatActivity {
         //git fetch --all
         //git push origin2-2 --delete master
         //git rebase
+        //git rebase2\
     }
 }
