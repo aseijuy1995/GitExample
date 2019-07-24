@@ -85,5 +85,6 @@ public class MainActivity extends AppCompatActivity {
         //git checkout -b master2 origin2-2/master
         //git branch -u origin/master2
         //git merge @{u}
+        //git branch -vv
     }
 }
