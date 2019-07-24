@@ -87,5 +87,6 @@ public class MainActivity extends AppCompatActivity {
         //git merge @{u}
         //git branch -vv
         //git fetch --all
+        //git push origin2-2 --delete master
     }
 }
