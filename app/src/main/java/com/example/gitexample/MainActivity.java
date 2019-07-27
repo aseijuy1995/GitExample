@@ -96,5 +96,7 @@ public class MainActivity extends AppCompatActivity {
         //問題1:Enter file in which to save the key (生成ssh公私鑰位置)
         //問題2,3:Enter passphrase (empty for no passphrase) / Enter same passphrase again:(驗證密碼,可不輸入)
         //產生後可輸入cat ~/.ssh/id_rsa.pub查看金鑰
+        //git diff --check
+        
     }
 }
