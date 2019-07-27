@@ -91,5 +91,6 @@ public class MainActivity extends AppCompatActivity {
         //git rebase
         //git rebase2
         //git rebase2
+        //git clone --bare https://github.com/aseijuy1995/GitExample.git
     }
 }
