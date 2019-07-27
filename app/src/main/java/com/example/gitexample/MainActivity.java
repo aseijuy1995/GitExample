@@ -92,5 +92,9 @@ public class MainActivity extends AppCompatActivity {
         //git rebase2
         //git rebase2
         //git clone --bare https://github.com/aseijuy1995/GitExample.git
+        //產ssh key - (window作法)透過終端機前往cd ~/.ssh查看ls是否有id_rsa, id_rsa.pub或id_dsa, id_dsa.pub若存在表已有ssh,若無則輸入ssh-keygen
+        //問題1:Enter file in which to save the key (生成ssh公私鑰位置)
+        //問題2,3:Enter passphrase (empty for no passphrase) / Enter same passphrase again:(驗證密碼,可不輸入)
+        //產生後可輸入cat ~/.ssh/id_rsa.pub查看金鑰
     }
 }
