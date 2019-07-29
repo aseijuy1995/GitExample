@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
         //產生後可輸入cat ~/.ssh/id_rsa.pub查看金鑰
         //git diff --check
         //git log --no-merges
+        //git push -u origin master2
 
     }
 }
