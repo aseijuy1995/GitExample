@@ -1,0 +1,23 @@
+From cf5feaf8d0cbb52c087407cd0ed81f09efc4149d Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Thu, 18 Jul 2019 00:23:18 +0800
+Subject: [PATCH 12/77] git move
+
+---
+ app/src/main/java/com/example/gitexample/Move.java | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 app/src/main/java/com/example/gitexample/Move.java
+
+diff --git a/app/src/main/java/com/example/gitexample/Move.java b/app/src/main/java/com/example/gitexample/Move.java
+new file mode 100644
+index 0000000..aa56317
+--- /dev/null
++++ b/app/src/main/java/com/example/gitexample/Move.java
+@@ -0,0 +1,4 @@
++package com.example.gitexample;
++
++public class Move {
++}
+-- 
+2.22.0.windows.1
+

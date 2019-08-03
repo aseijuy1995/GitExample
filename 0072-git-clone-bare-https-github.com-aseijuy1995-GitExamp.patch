@@ -1,0 +1,24 @@
+From 4fd8461d8b6435bd96aa4e17c37d34b28641156d Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 28 Jul 2019 01:51:12 +0800
+Subject: [PATCH 72/77] git clone --bare
+ https://github.com/aseijuy1995/GitExample.git
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 1fcf591..fc52ab6 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -91,5 +91,6 @@ public class MainActivity extends AppCompatActivity {
+         //git rebase
+         //git rebase2
+         //git rebase2
++        //git clone --bare https://github.com/aseijuy1995/GitExample.git
+     }
+ }
+-- 
+2.22.0.windows.1
+

@@ -1,0 +1,25 @@
+From b1e8da8058cd276f53258b4ab9a589819a9daa21 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 28 Jul 2019 04:06:16 +0800
+Subject: [PATCH 75/77] git log --no-merges
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 5e438f5..5d28f93 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
+         //問題2,3:Enter passphrase (empty for no passphrase) / Enter same passphrase again:(驗證密碼,可不輸入)
+         //產生後可輸入cat ~/.ssh/id_rsa.pub查看金鑰
+         //git diff --check
+-        
++        //git log --no-merges
++
+     }
+ }
+-- 
+2.22.0.windows.1
+

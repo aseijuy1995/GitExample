@@ -1,0 +1,24 @@
+From b92f19e5e7cf1a06a06a0fc2f888eb0d9808abe0 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Mon, 22 Jul 2019 23:43:15 +0800
+Subject: [PATCH 45/77] git k
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 6719345..e9ec579 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -64,5 +64,7 @@ public class MainActivity extends AppCompatActivity {
+         //git tag -a v1.0.1 -m "v1.0.1" 798378d
+         //git checkout -b master2 v1.0.2
+         //git config --global alias.cm commit
++        //git k
++        
+     }
+ }
+-- 
+2.22.0.windows.1
+

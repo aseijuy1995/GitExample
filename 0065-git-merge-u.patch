@@ -1,0 +1,23 @@
+From a7b54309449932bf9adc3c2ebdd2ca0aab6a45fc Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 24 Jul 2019 22:44:25 +0800
+Subject: [PATCH 65/77] git merge @{u}
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index c1ef7b8..70ef88a 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -84,5 +84,6 @@ public class MainActivity extends AppCompatActivity {
+         //git checkout --track origin/master
+         //git checkout -b master2 origin2-2/master
+         //git branch -u origin/master2
++        //git merge @{u}
+     }
+ }
+-- 
+2.22.0.windows.1
+

@@ -1,0 +1,24 @@
+From a79896a895b8a18558b678c0515d7ffc30cb9c07 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 28 Jul 2019 04:03:36 +0800
+Subject: [PATCH 74/77] git diff --check
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 7e02eaa..5e438f5 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -96,5 +96,7 @@ public class MainActivity extends AppCompatActivity {
+         //問題1:Enter file in which to save the key (生成ssh公私鑰位置)
+         //問題2,3:Enter passphrase (empty for no passphrase) / Enter same passphrase again:(驗證密碼,可不輸入)
+         //產生後可輸入cat ~/.ssh/id_rsa.pub查看金鑰
++        //git diff --check
++        
+     }
+ }
+-- 
+2.22.0.windows.1
+

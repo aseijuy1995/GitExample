@@ -1,0 +1,23 @@
+From fd595eb12ecb55478e6d5c20b37a1b8ffc533d83 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 17 Jul 2019 22:31:25 +0800
+Subject: [PATCH 03/77] chg not staged for commit
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 968fc5b..667fd61 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -9,5 +9,6 @@ public class MainActivity extends AppCompatActivity {
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_main);
++        //chg not staged for commit
+     }
+ }
+-- 
+2.22.0.windows.1
+

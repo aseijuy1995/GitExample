@@ -1,0 +1,23 @@
+From 94dd57b2ee806a5b611bdf3aad41a43cab8cb686 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Tue, 23 Jul 2019 01:15:20 +0800
+Subject: [PATCH 56/77] git branch -v
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index d8ffd17..d5f3799 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -75,5 +75,6 @@ public class MainActivity extends AppCompatActivity {
+         //git merge master2
+         //git branch -d master3
+         //git branch
++        //git branch -v
+     }
+ }
+-- 
+2.22.0.windows.1
+

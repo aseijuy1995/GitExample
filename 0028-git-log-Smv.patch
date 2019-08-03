@@ -1,0 +1,24 @@
+From 52b729195d0e611daf6913a2d32e4af7f9ae73b0 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:35:18 +0800
+Subject: [PATCH 28/77] git log -Smv
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 59c4213..48c4301 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
+         //git log --author=Jie
+         //git log --grep=commit
+         //git log --author=Jie --grep=commit --all-match
++        //git log -Smv
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

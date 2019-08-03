@@ -1,0 +1,23 @@
+From 650eaf14038451c646b9cdeca0ae4d3652f2be1a Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Mon, 22 Jul 2019 00:11:24 +0800
+Subject: [PATCH 44/77] git config --global alias.cm commit
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 7a50537..6719345 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -63,5 +63,6 @@ public class MainActivity extends AppCompatActivity {
+         //git show v1.0.0
+         //git tag -a v1.0.1 -m "v1.0.1" 798378d
+         //git checkout -b master2 v1.0.2
++        //git config --global alias.cm commit
+     }
+ }
+-- 
+2.22.0.windows.1
+

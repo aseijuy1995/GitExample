@@ -1,0 +1,24 @@
+From 33f000effe624f3393bc31761c0b827f5fc17662 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:47:16 +0800
+Subject: [PATCH 30/77] git reset head <file>
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index d1d171f..80d3c6c 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
+         //--util, --after
+         //--committer
+         //--amend
++        //git reset head <file>
+ 
+ 
+ 
+-- 
+2.22.0.windows.1
+

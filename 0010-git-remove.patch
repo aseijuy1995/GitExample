@@ -1,0 +1,23 @@
+From 571fe78f28940fc1c485ef51de09c94c55c0a10a Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 17 Jul 2019 23:55:25 +0800
+Subject: [PATCH 10/77] git remove
+
+---
+ app/src/main/java/com/example/gitexample/RM.java | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 app/src/main/java/com/example/gitexample/RM.java
+
+diff --git a/app/src/main/java/com/example/gitexample/RM.java b/app/src/main/java/com/example/gitexample/RM.java
+new file mode 100644
+index 0000000..394bcae
+--- /dev/null
++++ b/app/src/main/java/com/example/gitexample/RM.java
+@@ -0,0 +1,4 @@
++package com.example.gitexample;
++
++public class RM {
++}
+-- 
+2.22.0.windows.1
+

@@ -1,0 +1,24 @@
+From ae8da130e4c98859688a3eadbfb6fae605aa7e05 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 23:17:26 +0800
+Subject: [PATCH 37/77] git push origin master
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index cf2c40d..0f9793a 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
+         //git remote -v
+         //git remote add <shortname> <url>
+         //git fetch <remote-name>
++        //git push origin master
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

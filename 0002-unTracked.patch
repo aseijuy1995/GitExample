@@ -1,0 +1,23 @@
+From 2b1bc89835e1ff6a3fd1b481f6eafa52c884ab20 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 17 Jul 2019 22:29:23 +0800
+Subject: [PATCH 02/77] unTracked
+
+---
+ app/src/main/java/com/example/gitexample/UnTrackedFile.java | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 app/src/main/java/com/example/gitexample/UnTrackedFile.java
+
+diff --git a/app/src/main/java/com/example/gitexample/UnTrackedFile.java b/app/src/main/java/com/example/gitexample/UnTrackedFile.java
+new file mode 100644
+index 0000000..9985363
+--- /dev/null
++++ b/app/src/main/java/com/example/gitexample/UnTrackedFile.java
+@@ -0,0 +1,4 @@
++package com.example.gitexample;
++
++public class UnTrackedFile {
++}
+-- 
+2.22.0.windows.1
+

@@ -1,0 +1,23 @@
+From 91bcc3a85e2279ae37937f7452df2c370d15b3cd Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Tue, 23 Jul 2019 00:47:47 +0800
+Subject: [PATCH 51/77] git log --oneline --graph --all
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 8bc676d..bfa4137 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -69,5 +69,6 @@ public class MainActivity extends AppCompatActivity {
+         //git log --oneline --decorate
+         //git checkout master2
+         //git commit in master branch
++        // git log --oneline --graph --all
+     }
+ }
+-- 
+2.22.0.windows.1
+

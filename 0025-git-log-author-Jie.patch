@@ -1,0 +1,25 @@
+From 4648e7882e9b929fd8e6fe101f3f97ac0bdb07b1 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:31:29 +0800
+Subject: [PATCH 25/77] git log --author=Jie
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 6afeb45..5a80369 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
+         //git log --relative-date
+         //git log --oneline --graph
+         //git log --since=1.days
++        //git log --author=Jie
++        //git log --author=Jie
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

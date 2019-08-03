@@ -1,0 +1,24 @@
+From 3eaae7bebf4810c7445d8731c1ff02ae899dea0f Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:27:11 +0800
+Subject: [PATCH 23/77] git log --oneline --graph
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 9aafbbe..7070856 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
+         //git log --name-status
+         //git log --abbrev-commit
+         //git log --relative-date
++        //git log --oneline --graph
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

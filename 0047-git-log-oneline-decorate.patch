@@ -1,0 +1,23 @@
+From ce7296912ec6dcd1599406749a639d4d51c57160 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Tue, 23 Jul 2019 00:40:11 +0800
+Subject: [PATCH 47/77] git log --oneline --decorate
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index ecaa961..bb118e1 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -66,5 +66,6 @@ public class MainActivity extends AppCompatActivity {
+         //git config --global alias.cm commit
+         //git k
+         //git branch master2
++        //git log --oneline --decorate
+     }
+ }
+-- 
+2.22.0.windows.1
+

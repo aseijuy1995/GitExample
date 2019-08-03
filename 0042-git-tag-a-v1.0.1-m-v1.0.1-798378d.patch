@@ -1,0 +1,24 @@
+From 3e8de58563aac0f4430918dfc256bb9ea87060cc Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 23:55:53 +0800
+Subject: [PATCH 42/77] git tag -a v1.0.1 -m "v1.0.1" 798378d
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 8147560..0dd42e3 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
+         //git remote rename origin2 origin2-2
+         //git tag -l "v1.0.0"
+         //git show v1.0.0
++        //git tag -a v1.0.1 -m "v1.0.1" 798378d
+ 
+     }
+ }
+-- 
+2.22.0.windows.1
+

@@ -1,0 +1,25 @@
+From 28734963506295a4fdb084ff3dc27262d051e011 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:53:39 +0800
+Subject: [PATCH 32/77] git checkout -- <file>
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 80d3c6c..2b37ebc 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
+         //--committer
+         //--amend
+         //git reset head <file>
+-
++        //git checkout -- <file>
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

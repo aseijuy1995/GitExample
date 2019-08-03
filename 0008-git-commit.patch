@@ -1,0 +1,23 @@
+From 5fbb8d2a9ea932786e60696796d7e4759611b26d Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 17 Jul 2019 23:39:39 +0800
+Subject: [PATCH 08/77] git commit
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index b723491..8636775 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
+         //chg to be committed
+         //git diff
+         //git diff --staged (only show is add file)
++        //git commit
+     }
+ }
+-- 
+2.22.0.windows.1
+

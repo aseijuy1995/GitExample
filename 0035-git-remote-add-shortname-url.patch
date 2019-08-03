@@ -1,0 +1,24 @@
+From 3555bae29ef5a88109d974500484a65a6ca217ae Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:59:12 +0800
+Subject: [PATCH 35/77] git remote add <shortname> <url>
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 17fd96e..adf8662 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
+         //git checkout -- <file>
+         //git remote
+         //git remote -v
++        //git remote add <shortname> <url>
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

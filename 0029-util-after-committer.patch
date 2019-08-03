@@ -1,0 +1,27 @@
+From 1a323f8a24175b452d2a5f93f268981d390f2af3 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:37:36 +0800
+Subject: [PATCH 29/77] --util, --after, --committer, --amend
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 48c4301..d1d171f 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -47,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
+         //git log --grep=commit
+         //git log --author=Jie --grep=commit --all-match
+         //git log -Smv
++        //--util, --after
++        //--committer
++        //--amend
++
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

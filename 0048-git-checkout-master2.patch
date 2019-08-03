@@ -1,0 +1,23 @@
+From 51ab2c75000a9d25469d07ea09b7ae7e3c1bc1a5 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Tue, 23 Jul 2019 00:41:45 +0800
+Subject: [PATCH 48/77] git checkout master2
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index bb118e1..8a9c395 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -67,5 +67,6 @@ public class MainActivity extends AppCompatActivity {
+         //git k
+         //git branch master2
+         //git log --oneline --decorate
++        //git checkout master2
+     }
+ }
+-- 
+2.22.0.windows.1
+

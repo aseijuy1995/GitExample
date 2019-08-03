@@ -1,0 +1,23 @@
+From ea86a6e65693552c878a46f266023529fdfbc18a Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 24 Jul 2019 22:47:55 +0800
+Subject: [PATCH 67/77] git fetch --all
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 2d37fbe..144e185 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -86,5 +86,6 @@ public class MainActivity extends AppCompatActivity {
+         //git branch -u origin/master2
+         //git merge @{u}
+         //git branch -vv
++        //git fetch --all
+     }
+ }
+-- 
+2.22.0.windows.1
+

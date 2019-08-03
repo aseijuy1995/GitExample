@@ -1,0 +1,24 @@
+From 0184fb5d054319497accee2da1c6544740b8adb5 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:30:42 +0800
+Subject: [PATCH 24/77] git log --since=1.days
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 7070856..6afeb45 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
+         //git log --abbrev-commit
+         //git log --relative-date
+         //git log --oneline --graph
++        //git log --since=1.days
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

@@ -1,0 +1,24 @@
+From b366411401d7cc732a2256c68ab24141da8a1120 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 23:19:27 +0800
+Subject: [PATCH 38/77] git remote show origin
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 0f9793a..7e7e190 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
+         //git remote add <shortname> <url>
+         //git fetch <remote-name>
+         //git push origin master
++        //git remote show origin
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

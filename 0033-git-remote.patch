@@ -1,0 +1,24 @@
+From 40189951710b62aa0e1f7fa1eed2510b3c9b60a2 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:55:28 +0800
+Subject: [PATCH 33/77] git remote
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 2b37ebc..3be2998 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
+         //--amend
+         //git reset head <file>
+         //git checkout -- <file>
++        //git remote
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

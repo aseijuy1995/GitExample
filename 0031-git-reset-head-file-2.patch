@@ -1,0 +1,24 @@
+From 68ca84422a7f14657377003c6dd096bebe616b0a Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:47:46 +0800
+Subject: [PATCH 31/77] git reset head <file> 2
+
+---
+ app/src/main/java/com/example/gitexample/Reset.java | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 app/src/main/java/com/example/gitexample/Reset.java
+
+diff --git a/app/src/main/java/com/example/gitexample/Reset.java b/app/src/main/java/com/example/gitexample/Reset.java
+new file mode 100644
+index 0000000..385c1af
+--- /dev/null
++++ b/app/src/main/java/com/example/gitexample/Reset.java
+@@ -0,0 +1,5 @@
++package com.example.gitexample;
++
++public class Reset {
++    //git reset head <file>
++}
+-- 
+2.22.0.windows.1
+

@@ -1,0 +1,23 @@
+From dce3522f9792a9b049b15d5b4100489eaeb20aef Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Tue, 23 Jul 2019 00:46:39 +0800
+Subject: [PATCH 50/77] git commit in master branch
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 8a9c395..8bc676d 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -68,5 +68,6 @@ public class MainActivity extends AppCompatActivity {
+         //git branch master2
+         //git log --oneline --decorate
+         //git checkout master2
++        //git commit in master branch
+     }
+ }
+-- 
+2.22.0.windows.1
+

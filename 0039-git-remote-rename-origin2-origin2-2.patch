@@ -1,0 +1,24 @@
+From ce872476939eabdd2cb6a23180b61764cc03d07a Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 23:24:54 +0800
+Subject: [PATCH 39/77] git remote rename origin2 origin2-2
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 7e7e190..cd542ee 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
+         //git fetch <remote-name>
+         //git push origin master
+         //git remote show origin
++        //git remote rename origin2 origin2-2
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

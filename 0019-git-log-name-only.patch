@@ -1,0 +1,24 @@
+From 4b1dd999f166e937a441d7dd581fad586e5bbcc6 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:21:51 +0800
+Subject: [PATCH 19/77] git log --name-only
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index f29c3ec..2c6b651 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
+         //%cr 相對於目前日期的遞交日期
+         //%s 遞交資訊主題
+         //git log --shortstat
++        // git log --name-only
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

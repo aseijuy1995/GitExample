@@ -1,0 +1,26 @@
+From 80096b1ddc894f767d0996b4afdfcee75b9fc1c9 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 28 Jul 2019 02:18:04 +0800
+Subject: [PATCH 73/77] create ssh key
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index fc52ab6..7e02eaa 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -92,5 +92,9 @@ public class MainActivity extends AppCompatActivity {
+         //git rebase2
+         //git rebase2
+         //git clone --bare https://github.com/aseijuy1995/GitExample.git
++        //產ssh key - (window作法)透過終端機前往cd ~/.ssh查看ls是否有id_rsa, id_rsa.pub或id_dsa, id_dsa.pub若存在表已有ssh,若無則輸入ssh-keygen
++        //問題1:Enter file in which to save the key (生成ssh公私鑰位置)
++        //問題2,3:Enter passphrase (empty for no passphrase) / Enter same passphrase again:(驗證密碼,可不輸入)
++        //產生後可輸入cat ~/.ssh/id_rsa.pub查看金鑰
+     }
+ }
+-- 
+2.22.0.windows.1
+

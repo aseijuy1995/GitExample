@@ -1,0 +1,25 @@
+From 0eb92432e1bb084d5c127346d55cc9226869ee2f Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:26:18 +0800
+Subject: [PATCH 22/77] git log --relative-date
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index eede77f..9aafbbe 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
+         //git log --name-only
+         //git log --name-status
+         //git log --abbrev-commit
+-        //
++        //git log --relative-date
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

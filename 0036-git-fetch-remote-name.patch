@@ -1,0 +1,24 @@
+From 115196b6031db0f19f4ec1a007397067ba160e7d Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 23:08:01 +0800
+Subject: [PATCH 36/77] git fetch <remote-name>
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index adf8662..cf2c40d 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
+         //git remote
+         //git remote -v
+         //git remote add <shortname> <url>
++        //git fetch <remote-name>
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

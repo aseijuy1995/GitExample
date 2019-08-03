@@ -1,0 +1,23 @@
+From c4e59bc521dbc54efeeebf5cae036d4e777c861c Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 24 Jul 2019 22:40:22 +0800
+Subject: [PATCH 64/77] git branch -u origin/master2
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 086caa3..c1ef7b8 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -83,5 +83,6 @@ public class MainActivity extends AppCompatActivity {
+         //git checkout -b master2 origin/master
+         //git checkout --track origin/master
+         //git checkout -b master2 origin2-2/master
++        //git branch -u origin/master2
+     }
+ }
+-- 
+2.22.0.windows.1
+

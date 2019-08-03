@@ -1,0 +1,25 @@
+From 66679fd192b8baf45baa529761e3fb64e3fc966c Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 24 Jul 2019 23:49:33 +0800
+Subject: [PATCH 71/77] git rebase
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 8c5dde6..1fcf591 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
+         //git fetch --all
+         //git push origin2-2 --delete master
+         //git rebase
+-        //git rebase2\
++        //git rebase2
++        //git rebase2
+     }
+ }
+-- 
+2.22.0.windows.1
+

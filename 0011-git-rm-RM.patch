@@ -1,0 +1,23 @@
+From e40eb94767f620b7cf0cc1c9aa469c6503929618 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 17 Jul 2019 23:57:38 +0800
+Subject: [PATCH 11/77] git rm RM
+
+---
+ app/src/main/java/com/example/gitexample/RM.java | 4 ----
+ 1 file changed, 4 deletions(-)
+ delete mode 100644 app/src/main/java/com/example/gitexample/RM.java
+
+diff --git a/app/src/main/java/com/example/gitexample/RM.java b/app/src/main/java/com/example/gitexample/RM.java
+deleted file mode 100644
+index 394bcae..0000000
+--- a/app/src/main/java/com/example/gitexample/RM.java
++++ /dev/null
+@@ -1,4 +0,0 @@
+-package com.example.gitexample;
+-
+-public class RM {
+-}
+-- 
+2.22.0.windows.1
+

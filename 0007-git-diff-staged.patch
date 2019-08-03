@@ -1,0 +1,36 @@
+From d66b95132d7058212a750978c1b1d9d97153a511 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 17 Jul 2019 23:24:30 +0800
+Subject: [PATCH 07/77] git diff --staged
+
+---
+ app/src/main/java/com/example/gitexample/Diff__Staged.java | 5 +++++
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 2 files changed, 6 insertions(+)
+ create mode 100644 app/src/main/java/com/example/gitexample/Diff__Staged.java
+
+diff --git a/app/src/main/java/com/example/gitexample/Diff__Staged.java b/app/src/main/java/com/example/gitexample/Diff__Staged.java
+new file mode 100644
+index 0000000..2cfde0a
+--- /dev/null
++++ b/app/src/main/java/com/example/gitexample/Diff__Staged.java
+@@ -0,0 +1,5 @@
++package com.example.gitexample;
++
++public class Diff__Staged {
++    //git diff --staged (only show is add file)
++}
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 5a6680b..b723491 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -12,5 +12,6 @@ public class MainActivity extends AppCompatActivity {
+         //chg not staged for commit
+         //chg to be committed
+         //git diff
++        //git diff --staged (only show is add file)
+     }
+ }
+-- 
+2.22.0.windows.1
+

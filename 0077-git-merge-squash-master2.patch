@@ -1,0 +1,24 @@
+From 10b08c6eaabc490b752d425ac62ddbd83ec11643 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sat, 3 Aug 2019 15:31:17 +0800
+Subject: [PATCH 77/77] git merge --squash master2
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index a76af47..0fb5222 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
+         //git diff --check
+         //git log --no-merges
+         //git push -u origin master2
++        //git merge --squash master2
+ 
+     }
+ }
+-- 
+2.22.0.windows.1
+

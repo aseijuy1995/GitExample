@@ -1,0 +1,23 @@
+From c5733fc62559bcc250d50e8212a458f22cf36070 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 17 Jul 2019 23:19:11 +0800
+Subject: [PATCH 06/77] git diff
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 8cd6b81..5a6680b 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -11,5 +11,6 @@ public class MainActivity extends AppCompatActivity {
+         setContentView(R.layout.activity_main);
+         //chg not staged for commit
+         //chg to be committed
++        //git diff
+     }
+ }
+-- 
+2.22.0.windows.1
+

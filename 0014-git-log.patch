@@ -1,0 +1,23 @@
+From 88b143c7f712f1592472256f419b39dbaca0f546 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Thu, 18 Jul 2019 22:07:58 +0800
+Subject: [PATCH 14/77] git log
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 8199d08..0c608f1 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
+         //git commit
+         //git commit -a
+         //git mv (renamed)
++        //git log
+     }
+ }
+-- 
+2.22.0.windows.1
+

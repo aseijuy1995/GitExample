@@ -1,0 +1,23 @@
+From 530aedeceeca152cf7572740034d822fc1fc4c80 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 24 Jul 2019 22:49:56 +0800
+Subject: [PATCH 68/77] git push origin2-2 --delete master
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 144e185..6ccf136 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -87,5 +87,6 @@ public class MainActivity extends AppCompatActivity {
+         //git merge @{u}
+         //git branch -vv
+         //git fetch --all
++        //git push origin2-2 --delete master
+     }
+ }
+-- 
+2.22.0.windows.1
+

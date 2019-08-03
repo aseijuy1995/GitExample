@@ -1,0 +1,38 @@
+From b8b60b3f7f547c7aa721eaa82e512c37348f60e4 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Mon, 29 Jul 2019 22:04:11 +0800
+Subject: [PATCH 76/77] git push -u origin master2
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ build.gradle                                               | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 5d28f93..a76af47 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
+         //產生後可輸入cat ~/.ssh/id_rsa.pub查看金鑰
+         //git diff --check
+         //git log --no-merges
++        //git push -u origin master2
+ 
+     }
+ }
+diff --git a/build.gradle b/build.gradle
+index 02199bb..458d06a 100644
+--- a/build.gradle
++++ b/build.gradle
+@@ -7,7 +7,7 @@ buildscript {
+         
+     }
+     dependencies {
+-        classpath 'com.android.tools.build:gradle:3.4.1'
++        classpath 'com.android.tools.build:gradle:3.4.2'
+         
+         // NOTE: Do not place your application dependencies here; they belong
+         // in the individual module build.gradle files
+-- 
+2.22.0.windows.1
+

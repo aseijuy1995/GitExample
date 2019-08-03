@@ -1,0 +1,40 @@
+From b037d726b78ad58da4572d47dee241ef201d13b2 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:20:49 +0800
+Subject: [PATCH 18/77] git log --shortstat
+
+---
+ .idea/vcs.xml                                              | 6 ++++++
+ app/src/main/java/com/example/gitexample/MainActivity.java | 2 ++
+ 2 files changed, 8 insertions(+)
+ create mode 100644 .idea/vcs.xml
+
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+index 0000000..35eb1dd
+--- /dev/null
++++ b/.idea/vcs.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 4be222e..f29c3ec 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
+         //%cd 遞交日期
+         //%cr 相對於目前日期的遞交日期
+         //%s 遞交資訊主題
++        //git log --shortstat
++
+ 
+     }
+ }
+-- 
+2.22.0.windows.1
+

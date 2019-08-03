@@ -1,0 +1,29 @@
+From 5ade7fea92318b03aa36abe5df0999bbaaf31603 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 22:26:08 +0800
+Subject: [PATCH 21/77] git log --abbrev-commit
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 572bd1f..eede77f 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -36,8 +36,10 @@ public class MainActivity extends AppCompatActivity {
+         //%cr 相對於目前日期的遞交日期
+         //%s 遞交資訊主題
+         //git log --shortstat
+-        // git log --name-only
+-        // git log --name-status
++        //git log --name-only
++        //git log --name-status
++        //git log --abbrev-commit
++        //
+ 
+ 
+     }
+-- 
+2.22.0.windows.1
+

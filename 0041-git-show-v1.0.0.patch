@@ -1,0 +1,25 @@
+From 798378d78888d4955329d946480a3215349708c8 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Sun, 21 Jul 2019 23:49:38 +0800
+Subject: [PATCH 41/77] git show v1.0.0
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 1a2bc21..8147560 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
+         //git remote show origin
+         //git remote rename origin2 origin2-2
+         //git tag -l "v1.0.0"
+-
++        //git show v1.0.0
+ 
+     }
+ }
+-- 
+2.22.0.windows.1
+

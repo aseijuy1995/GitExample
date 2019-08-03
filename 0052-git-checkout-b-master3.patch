@@ -1,0 +1,23 @@
+From 19524e9a37b8fa841871de69f25e157bc19e4ab7 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Tue, 23 Jul 2019 00:52:09 +0800
+Subject: [PATCH 52/77] git checkout -b master3
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index bfa4137..40f9b92 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -70,5 +70,6 @@ public class MainActivity extends AppCompatActivity {
+         //git checkout master2
+         //git commit in master branch
+         // git log --oneline --graph --all
++        //git checkout -b master3
+     }
+ }
+-- 
+2.22.0.windows.1
+

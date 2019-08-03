@@ -1,0 +1,48 @@
+From d89abbc56516bf2ddb83e6495af3585085602503 Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Thu, 18 Jul 2019 00:24:55 +0800
+Subject: [PATCH 13/77] git mv
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ app/src/main/java/com/example/gitexample/Move.java         | 4 ----
+ app/src/main/java/com/example/gitexample/Move2.java        | 5 +++++
+ 3 files changed, 6 insertions(+), 4 deletions(-)
+ delete mode 100644 app/src/main/java/com/example/gitexample/Move.java
+ create mode 100644 app/src/main/java/com/example/gitexample/Move2.java
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 0ef5499..8199d08 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
+         //git diff --staged (only show is add file)
+         //git commit
+         //git commit -a
++        //git mv (renamed)
+     }
+ }
+diff --git a/app/src/main/java/com/example/gitexample/Move.java b/app/src/main/java/com/example/gitexample/Move.java
+deleted file mode 100644
+index aa56317..0000000
+--- a/app/src/main/java/com/example/gitexample/Move.java
++++ /dev/null
+@@ -1,4 +0,0 @@
+-package com.example.gitexample;
+-
+-public class Move {
+-}
+diff --git a/app/src/main/java/com/example/gitexample/Move2.java b/app/src/main/java/com/example/gitexample/Move2.java
+new file mode 100644
+index 0000000..5ee3d4c
+--- /dev/null
++++ b/app/src/main/java/com/example/gitexample/Move2.java
+@@ -0,0 +1,5 @@
++package com.example.gitexample;
++
++public class Move2 {
++    //git mv (renamed)
++}
+-- 
+2.22.0.windows.1
+

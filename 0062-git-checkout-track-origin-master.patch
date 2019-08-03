@@ -1,0 +1,23 @@
+From 257279c5a98dc794f367c053fa5fbb0dc69c361a Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 24 Jul 2019 22:29:46 +0800
+Subject: [PATCH 62/77] git checkout --track origin/master
+
+---
+ app/src/main/java/com/example/gitexample/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/src/main/java/com/example/gitexample/MainActivity.java b/app/src/main/java/com/example/gitexample/MainActivity.java
+index 5989593..163563c 100644
+--- a/app/src/main/java/com/example/gitexample/MainActivity.java
++++ b/app/src/main/java/com/example/gitexample/MainActivity.java
+@@ -81,5 +81,6 @@ public class MainActivity extends AppCompatActivity {
+         //git branch -D master2
+         //git config --global credential.helper cache
+         //git checkout -b master2 origin/master
++        //git checkout --track origin/master
+     }
+ }
+-- 
+2.22.0.windows.1
+

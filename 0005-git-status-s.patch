@@ -1,0 +1,23 @@
+From 1f4928d759c03b2480b853b559a6b90dc45a2e1a Mon Sep 17 00:00:00 2001
+From: Jie <b0972911675@gmail.com>
+Date: Wed, 17 Jul 2019 22:39:27 +0800
+Subject: [PATCH 05/77] git status -s
+
+---
+ app/src/main/java/com/example/gitexample/Status_S.java | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 app/src/main/java/com/example/gitexample/Status_S.java
+
+diff --git a/app/src/main/java/com/example/gitexample/Status_S.java b/app/src/main/java/com/example/gitexample/Status_S.java
+new file mode 100644
+index 0000000..f28b764
+--- /dev/null
++++ b/app/src/main/java/com/example/gitexample/Status_S.java
+@@ -0,0 +1,4 @@
++package com.example.gitexample;
++
++public class Status_S {
++}
+-- 
+2.22.0.windows.1
+
