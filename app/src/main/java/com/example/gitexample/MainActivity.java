@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
         //git diff --check
         //git log --no-merges
         //git push -u origin master2
+        //git merge --squash master2
 
     }
 }
