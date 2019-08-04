@@ -102,6 +102,10 @@ public class MainActivity extends AppCompatActivity {
         //git merge --squash master2
         //git format-patch -M origin master
         //git config --global rerere.enabled true
+        //gpg --list-keys
+        //gpg -a --export AC6541B1E17E7132E45B2080748B7BF2DE92BDB9 | git hash-object -w stdin
+        //git tag -a maintainer-pgp-pub AC6541B1E17E7132E45B2080748B7BF2DE92BDB9
+        //git show maintainer-pgp-pub | gpg --import
 
     }
 }
