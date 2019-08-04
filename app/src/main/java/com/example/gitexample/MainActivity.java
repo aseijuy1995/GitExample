@@ -108,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
         //git show maintainer-pgp-pub | gpg --import
         //git describe master
         //git archive master --prefix-'project/' | gzip >'git describe master' .tar.gz
+        //ls *.tar.gz
 
     }
 }
