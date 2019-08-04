@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
         //git push -u origin master2
         //git merge --squash master2
         //git format-patch -M origin master
+        //git config --global rerere.enabled true
 
     }
 }
