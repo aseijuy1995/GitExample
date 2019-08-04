@@ -110,6 +110,6 @@ public class MainActivity extends AppCompatActivity {
         //git archive master --prefix-'project/' | gzip >'git describe master' .tar.gz
         //ls *.tar.gz
         //git shortlog --no-merges master --not v1.0.1
-
+        //git request-pull
     }
 }
