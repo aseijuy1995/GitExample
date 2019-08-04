@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
         //git tag -a maintainer-pgp-pub AC6541B1E17E7132E45B2080748B7BF2DE92BDB9
         //git show maintainer-pgp-pub | gpg --import
         //git describe master
+        //git archive master --prefix-'project/' | gzip >'git describe master' .tar.gz
 
     }
 }
