@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //入門
-        //查看個人設定 git config --list
+        /***查看個人設定 git config --list***/
         //設定痊癒使用者名稱 git config --global user.name "XXX"
         //設定痊癒使用者郵件 git config --global user.email "xxx@gmail.com"
         //取得說明 git <verb> --help
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         //檢視遞交歷史 git log
         //檢視遞交歷史並顯示遞交差異 git log -p
         //檢視遞交歷史並簡要統計資訊 git log --stat
-        //檢視遞交歷史並更改輸出格式 git log --pretty=oneline
+        /***檢視遞交歷史並更改輸出格式 git log --pretty=oneline***/
             //git log --pretty=format:"%h - %an, %ar:%s"
             //遞交物件雜湊值 %H
             //遞交物件簡短雜湊值 %h
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             //%cd 遞交者遞交日期
             //%cr 相對目前日期的遞交日期
             //%s 遞交資訊主題
-        //檢視遞交歷史並更改輸出格式與ASCII顯示基本圖表 git log --pretty=format:"%h %s" --graph
+        /***檢視遞交歷史並更改輸出格式與ASCII顯示基本圖表 git log --pretty=format:"%h %s" --graph***/
         //檢視遞交歷史並顯示更改檔案統計資訊 git log --shortstat
         //檢視遞交歷史並顯示有被更改的檔案 git log --name-only
         //檢視遞交歷史並顯示有被更改的檔案與更改過的統計資訊 git log --name-status
@@ -67,14 +67,32 @@ public class MainActivity extends AppCompatActivity {
         //檢視遞交歷史並依名查詢相關遞交 git log --author=""
         //檢視遞交歷史並依關鍵字查詢相關遞交 git log --grep=""
         //檢視遞交歷史並依多條件查詢相關遞交 git log --author="" --grep="" --all-match
-        //檢視遞交歷史並依增減相關方法的最後一次遞交 git log -S
+        /***檢視遞交歷史並依增減相關方法的最後一次遞交 git log -S***/
         //檢視遞交歷史並只顯示最新n筆遞交 git log -(n)
         //檢視遞交歷史並指定日期之後的遞交 git log --since --after
         //檢視遞交歷史並指定日期之前的遞交 git log --until --before
         //檢視遞交歷史並指定相符字串的遞交 git log --committer
-        //取消操作並重新修改commit名 git commit -m "修正commit" --amend
+        /***取消操作並重新修改commit名 git commit -m "修正commit" --amend***/
+        /***取消已暫存的檔案 get reset head <file_name>***/
+        /***取消對檔案的修改 git checkout -- <file_name>***/
+        //顯示遠端倉庫 git remote
+        //顯示遠端倉庫並顯示對應URL git remote -v
+        //增加遠端倉庫 git remote add <origin_name> https://github.com/aseijuy1995/GitExample2.git
+        //從遠端倉庫取得和擷取資料 git fetch <remote_name> <branch_name>
+        //將資料發送到遠端倉庫 git push <remote_name> <branch_name>
+        //檢查遠端倉庫 git remote show <branch_name>
+        /***重新命名遠端倉庫 git remote rename <old_branch_name> <new_branch_name>***/
+        /***刪除遠端倉庫 git remote rm <branch_name>***/
+        //列舉標記 git tag
+        //註釋標籤 git tag -a <tag_name> -m ""
+        //顯示標籤資訊 git show <tag_name>
+        //輕量標籤 git tag <tag_name>
+        //補加標籤 git tab -a <tag_name> SHA-1值
+        //共用標籤 git push origin <tag_name> / git push origin --tags
+        /***Git別名 git config --global alias.co checkout***/
+        //刪除本地標籤 git tag -d <tag_name>
+        //刪除遠端標籤 git push origin --delete tag <tag_name>
 
-        
 
 
 
