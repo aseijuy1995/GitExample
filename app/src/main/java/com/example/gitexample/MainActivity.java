@@ -39,6 +39,41 @@ public class MainActivity extends AppCompatActivity {
         //跳過暫存區將以修改過的檔案遞交變更 git commit -am ""
         //移除檔案 git rm
         //移動檔案 git mv 'file_go' 'file_to'
+        //檢視遞交歷史 git log
+        //檢視遞交歷史並顯示遞交差異 git log -p
+        //檢視遞交歷史並簡要統計資訊 git log --stat
+        //檢視遞交歷史並更改輸出格式 git log --pretty=oneline
+            //git log --pretty=format:"%h - %an, %ar:%s"
+            //遞交物件雜湊值 %H
+            //遞交物件簡短雜湊值 %h
+            //樹物件雜湊值 %T
+            //樹物件簡短雜湊值 %t
+            //父物件雜湊值 %P
+            //父物件簡短雜湊值 %p
+            //%an 作者名
+            //%ae 作者電子郵件
+            //%ad 作者創建日期
+            //%cn 遞交者名
+            //%ce 遞交者電子郵件
+            //%cd 遞交者遞交日期
+            //%cr 相對目前日期的遞交日期
+            //%s 遞交資訊主題
+        //檢視遞交歷史並更改輸出格式與ASCII顯示基本圖表 git log --pretty=format:"%h %s" --graph
+        //檢視遞交歷史並顯示更改檔案統計資訊 git log --shortstat
+        //檢視遞交歷史並顯示有被更改的檔案 git log --name-only
+        //檢視遞交歷史並顯示有被更改的檔案與更改過的統計資訊 git log --name-status
+        //檢視遞交歷史並簡短顯示SHA值 git log --abbrev-commit
+        //檢視遞交歷史並顯示相對日期 git log --relative-date
+        //檢視遞交歷史並依名查詢相關遞交 git log --author=""
+        //檢視遞交歷史並依關鍵字查詢相關遞交 git log --grep=""
+        //檢視遞交歷史並依多條件查詢相關遞交 git log --author="" --grep="" --all-match
+        //檢視遞交歷史並依增減相關方法的最後一次遞交 git log -S
+        //檢視遞交歷史並只顯示最新n筆遞交 git log -(n)
+        //檢視遞交歷史並指定日期之後的遞交 git log --since --after
+        //檢視遞交歷史並指定日期之前的遞交 git log --until --before
+        //檢視遞交歷史並指定相符字串的遞交 git log --committer
+        //取消操作並重新修改commit名 git commit -m "修正commit" --amend
+
         
 
 
