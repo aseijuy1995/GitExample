@@ -112,6 +112,8 @@ public class MainActivity extends AppCompatActivity {
         //建立追蹤分支 git checkout -b <branch_name> <remote_name>/<remote_branch_name>
         //建立追蹤分支 git checkout --track <remote_name>/<remote_branch_name>
         //更改遠端追蹤分支 git branch -u <remote_name>/<remote_branch_name>
+        //檢視設定的追蹤分支 git branch -vv
+        //刪除遠端分支 git push <remote_name> --delete <branch_name>
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //憑證快取 git config --global credential.helper cache
