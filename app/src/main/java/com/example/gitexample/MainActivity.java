@@ -93,6 +93,12 @@ public class MainActivity extends AppCompatActivity {
         //刪除本地標籤 git tag -d <tag_name>
         //刪除遠端標籤 git push origin --delete tag <tag_name>
 
+        //Git分支機制
+        //建立新分支 git branch <branch_name>
+        //檢視各分支目前指向的物件 git log --oneline --decorate
+        //切換分支 git checkout <branch_name>
+        
+
 
 
 
