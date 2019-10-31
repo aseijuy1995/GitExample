@@ -101,12 +101,8 @@ public class MainActivity extends AppCompatActivity {
         //建立分支 git branch <branch_name>
         //刪除分支 git branch -d <branch__name>
         //切換分支 git checkout <branch_name>
-
-        //git commit in master
-
-
-
-
+        //建立並切換至分支 git checkout -b <branch_name>
+        //
 
 
 
