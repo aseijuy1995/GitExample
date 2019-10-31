@@ -75,11 +75,16 @@ public class MainActivity extends AppCompatActivity {
         /***取消操作並重新修改commit名 git commit -m "修正commit" --amend***/
         /***取消已暫存的檔案 get reset head <file_name>***/
         /***取消對檔案的修改 git checkout -- <file_name>***/
+
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //顯示遠端倉庫 git remote
         //顯示遠端倉庫並顯示對應URL git remote -v
-        //增加遠端倉庫 git remote add <origin_name> https://github.com/aseijuy1995/GitExample2.git
+        //增加遠端倉庫 git remote add <remote_name> <url>
         //從遠端倉庫取得和擷取資料 git fetch <remote_name> <branch_name>
         //將資料發送到遠端倉庫 git push <remote_name> <branch_name>
+
         //檢查遠端倉庫 git remote show <branch_name>
         /***重新命名遠端倉庫 git remote rename <old_branch_name> <new_branch_name>***/
         /***刪除遠端倉庫 git remote rm <branch_name>***/
@@ -102,9 +107,12 @@ public class MainActivity extends AppCompatActivity {
         //刪除分支 git branch -d <branch__name>
         //切換分支 git checkout <branch_name>
         //建立並切換至分支 git checkout -b <branch_name>
-        //
-        //
+        //檢視已合併過的分支 git branch --merged
+        //檢視未合併的分支 git branch --no-merged
+        //建立追蹤分支 git checkout -b <branch_name> <remote_name> <remote_branch_name>
 
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //憑證快取 git config --global credential.helper cache
 
 
 
