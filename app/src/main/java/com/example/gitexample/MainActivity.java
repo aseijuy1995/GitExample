@@ -110,6 +110,8 @@ public class MainActivity extends AppCompatActivity {
         //檢視已合併過的分支 git branch --merged
         //檢視未合併的分支 git branch --no-merged
         //建立追蹤分支 git checkout -b <branch_name> <remote_name>/<remote_branch_name>
+        //建立追蹤分支 git checkout --track <remote_name>/<remote_branch_name>
+        //更改遠端追蹤分支 git branch -u <remote_name>/<remote_branch_name>
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //憑證快取 git config --global credential.helper cache
