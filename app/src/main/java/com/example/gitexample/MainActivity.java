@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
             //已修改已暫存,並且又有修改過 MM
         //檢視亦暫存和未暫存的變更 git diff
         //檢視與上一次遞交與暫存內容的差異 git diff --staged
+        //檢查遞交前可能存在的空白錯誤 git diff --check
         //遞交變更 git commit -m ""
         //跳過暫存區將以修改過的檔案遞交變更 git commit -am ""
         //移除檔案 git rm
@@ -100,7 +101,9 @@ public class MainActivity extends AppCompatActivity {
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        //複製當前倉庫建立新的原生倉庫 git clone --bare
+        //複製當前倉庫(不含工作目錄)建立新的原生倉庫 git clone --bare <remote_url> <custom_name.git>
+        //將當前倉庫複製至伺服器目錄 scp -r <custom_name.git> <ssh__url>
+        //修改該倉庫目錄的組許可權 git init --bare --shared
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -135,12 +138,16 @@ public class MainActivity extends AppCompatActivity {
 
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        //前往保存SSH密鑰存放位置 cd ~/.ssh
+        //生成SSH密鑰 ssh-keygen
+        //取得公鑰 cat ~/.ssh/<ssh_file_name.pub>
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //憑證快取 git config --global credential.helper cache
-        //master21
-        //master22
-        //master23
-        //master24
-        //master25
+        
+
 
     }
 }
