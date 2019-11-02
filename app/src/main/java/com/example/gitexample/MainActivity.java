@@ -88,19 +88,24 @@ public class MainActivity extends AppCompatActivity {
         //檢查遠端倉庫 git remote show <branch_name>
         /***重新命名遠端倉庫 git remote rename <old_branch_name> <new_branch_name>***/
         /***刪除遠端倉庫 git remote rm <branch_name>***/
+        /***Git別名 git config --global alias.co checkout***/
+        //將資料發送到遠端覆蓋當前遠端 git push -f <current_branch_name> <remote_branch_name>
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //標籤
         //列舉標記 git tag
         //註釋標籤 git tag -a <tag_name> -m ""
         //顯示標籤資訊 git show <tag_name>
         //輕量標籤 git tag <tag_name>
         //補加標籤 git tab -a <tag_name> SHA-1值
         //共用標籤 git push origin <tag_name> / git push origin --tags
-        /***Git別名 git config --global alias.co checkout***/
         //刪除本地標籤 git tag -d <tag_name>
         //刪除遠端標籤 git push origin --delete tag <tag_name>
-        //將資料發送到遠端覆蓋當前遠端 git push -f <current_branch_name> <remote_branch_name>
+        //顯示最近標籤 git describe <branch_name>
+        //簽署標籤
+        //為發布版打標籤
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
         //複製當前倉庫(不含工作目錄)建立新的原生倉庫 git clone --bare <remote_url> <custom_name.git>
         //將當前倉庫複製至伺服器目錄 scp -r <custom_name.git> <ssh__url>
         //修改該倉庫目錄的組許可權 git init --bare --shared
@@ -126,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
         //檢視設定的追蹤分支 git branch -vv
         //刪除遠端分支 git push <remote_name> --delete <branch_name>
 
+
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //合併
         //接受以合併分支其壓縮成一個變更 git merge --squash <target_branch_name>
@@ -141,7 +147,6 @@ public class MainActivity extends AppCompatActivity {
         //揀選需要的紀錄作為合併主分支中(類似rebase) git cherry-pick <sha-1_value>
 
 
-
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //前往保存SSH密鑰存放位置 cd ~/.ssh
         //生成SSH密鑰 ssh-keygen
@@ -153,8 +158,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //簽署標籤
-        //為發布版打標籤 
+
 
 
     }
