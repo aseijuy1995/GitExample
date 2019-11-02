@@ -117,9 +117,11 @@ public class MainActivity extends AppCompatActivity {
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //憑證快取 git config --global credential.helper cache
-        //1
-        //d
-
+        //master21
+        //master22
+        //master23
+        //master24
+        //master25
 
     }
 }
