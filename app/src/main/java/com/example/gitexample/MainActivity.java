@@ -158,7 +158,12 @@ public class MainActivity extends AppCompatActivity {
         //打包成ZIP檔 git archive --format=zip --output=<file_name>.tar HEAD
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //Capture request
+        //擷取請求
+        //衍生別人的專案到自己的Github上 Fork other Project
+        //新建分支從主分支(為修改程式碼) Create new branch from master
+        //修改程式碼 Modify the code
+        //將新分支送回自己的Github上 Push branch to Own Github
+        //建立擷取請求 Create pull request
 
 
     }
